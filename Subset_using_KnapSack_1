@@ -58,7 +58,7 @@ class Solution{
                     
                 }
                 
-             else if(i == 0 && j == 0){ //initlization
+             else if(j == 0){ //initlization
                     
                     dp[i][j] = true ; // sum == 0 raha too kr skte h return true obv
                     
