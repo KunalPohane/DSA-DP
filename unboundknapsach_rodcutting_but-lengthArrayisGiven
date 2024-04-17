@@ -1,4 +1,10 @@
 //{ Driver Code Starts
+
+//When a specific length array is given, each length in that array represents a potential cut that can be made on the rod. Therefore, when solving the rod cutting problem with a given length array, we need to consider each length in the array to determine the maximum achievable price for the given rod length.
+
+For example, if the length array is [1, 2], it means that we can make cuts at lengths 1 and 2. Therefore, when computing the maximum achievable price, we need to consider these lengths and their corresponding prices to find the optimal solution.
+
+
 import java.io.*;
 import java.util.*;
 
